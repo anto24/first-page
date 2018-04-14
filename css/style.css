@@ -1,0 +1,91 @@
+html{
+
+	background-color: #89EAFF;
+	background-image: url('../imagenes/fondo.png')	
+
+}
+
+body{
+	width: 0 auto;
+	height: 0 auto;
+	margin: 0 auto;
+}
+
+
+h1{
+	text-align: center;
+	color: #020202;
+	
+}
+
+p{
+	font-family: arial;
+	text-align: justify;
+}
+
+div{
+
+	padding:10px;
+	margin: 0 auto;
+	max-width: 80%;
+	height: 0 auto;
+	background-color: #B8ECB9;
+	padding: 0 20px 20px 20px;
+	font-family: Times New Roman;
+}
+
+.logo{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	align-self: center;
+}
+.main-nave {
+
+	text-align: center;
+	max-width: 80%;
+	height: 30%;
+	align-self: center;
+	margin: 0 auto;
+
+
+}
+
+.main-nave ul {
+
+
+	list-style: none;
+	display: inline;
+	justify-content: center;
+}
+
+ .main-nave a{
+	color: #040404;
+	display: inline-flex;
+	padding: 5px;
+	text-align: center;
+	margin: 5px;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 25px;
+	transition: 0.3s;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 24), 0 15px 50px 0 rgba(0, 0, 0, 19);
+
+}
+
+.main-nave a:hover{
+
+	transform: scale(1.04) translateY(-5px) translateX(-5px);
+	box-shadow: 12px 12px 10px rgba(0, 0, 0, .2)
+}
+
+
+.mainlist{
+
+	font-size: 15px;
+	font-family: verdana;
+}
