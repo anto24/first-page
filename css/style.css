@@ -47,7 +47,7 @@ div{
 	max-width: 25%;
 	max-height: 25%;
 }
-.main-nave {
+nav {
 
 	text-align: center;
 	max-width: 80%;
@@ -56,7 +56,7 @@ div{
 	margin: 0 auto;
 }
 
-.main-nave ul {
+nav ul{
 
 
 	list-style: none;
@@ -64,7 +64,7 @@ div{
 	justify-content: center;
 }
 
- .main-nave a{
+nav a{
 	color: #040404;
 	display: inline-flex;
 	padding: 5px;
@@ -82,7 +82,7 @@ div{
 
 }
 
-.main-nave a:hover{
+nav a:hover{
 
 	transform: scale(1.04) translateY(-5px) translateX(-5px);
 	box-shadow: 12px 12px 10px rgba(0, 0, 0, .2)
@@ -107,4 +107,12 @@ footer a{
 
 	text-decoration: none;
 	color: #040404;
+}
+
+footer img{
+
+	width: 5%;
+	height: auto;
+	align-self: center;
+	margin: 2px;
 }

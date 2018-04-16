@@ -14,7 +14,7 @@ header{
 	font-size: 25px;
 }
 
-.header_nav table{
+header table{
 
 	width: 100%;
 }
@@ -27,7 +27,7 @@ div{
 	border: 2px;
 	border-style: inset;
 	background: #C3C3C3;
-	width: 1500px;
+	max-width: 80%;
 }
 p{
 	text-align: justify;
@@ -57,7 +57,7 @@ img{
 	margin: 0 auto;
 	display: block;
 }
-.page_nav{
+nav{
 
 	max-width: 0 auto;
 	background-color: #FFFFFF;
@@ -65,7 +65,7 @@ img{
 	font-family: verdana;
 	
 }
-.page_nav table{
+nav table{
 
 	border-style: outset;
 	border-color: grey;
@@ -73,5 +73,4 @@ img{
 	width: 100%;
 	text-align: center;
 }
-
 
